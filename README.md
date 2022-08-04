@@ -8,9 +8,15 @@ Main purpose is to give an example for publishing container images vi github ci
 
 ## Build
 
-Build a local image with docker
+Build a local container from the `Dockerfile`
 
 ```shell
-docker 
+docker buildx build . --file Dockerfile --tag artifacts.serie-a.de:4480/nliebelt/docker-github-actions:latest
 ```
 
+## Publish
+
+```shell
+docker login artifacts.serie-a.de:4480
+docker push artifacts.serie-a.de:4480/nliebelt/docker-github-actions:latest
+```
