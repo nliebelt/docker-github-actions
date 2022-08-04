@@ -1,3 +1,5 @@
+[![Docker](https://github.com/nliebelt/docker-github-actions/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/nliebelt/docker-github-actions/actions/workflows/docker-publish.yml)
+
 # Docker github actions showcase
 
 Showcase to build and publish a Container with github actions
@@ -11,3 +13,4 @@ Build a local image with docker
 ```shell
 docker 
 ```
+
