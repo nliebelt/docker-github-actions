@@ -16,7 +16,7 @@ on:
 
 env:
   # Use docker.io for Docker Hub if empty
-  REGISTRY: artifacts.serie-a.de:4480
+  REGISTRY: docker-artifacts.serie-a.de
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
